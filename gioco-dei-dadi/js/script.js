@@ -7,13 +7,19 @@ Che ci sia un array da qualche parte?
 Se dobbiamo confrontare qualcosa che "cosa" ci serve?
 */
 
-alert("Hello!Gioco dei dadi")
 
 //CREARE 2 NUMERI RANDOM pc & user
 //creare numero random del pc
+const numberComputer = Math.floor(Math.random()*(7 -1)) + 1;
+console.log(numberComputer)
 //creare numero random utente 
+const numberUser = Math.floor(Math.random()*(7 -1)) + 1;
+console.log(numberUser)
+
 //STABILIRE IL VINCITORE = chi ha n° >
 // SE numero pc > numero utente
 //      messaggio: Ha vinto il PC
-//ALTRIMENTI se numero utente > numero pc
+//ALTRIMENTI SE numero utente > numero pc
 //      messaggio: Ha vinto l'utente 
+//ALTRIMENTI pareggio
+//      messaggio: Nessun vincitore, è un pareggio
