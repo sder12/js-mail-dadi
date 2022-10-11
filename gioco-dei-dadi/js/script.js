@@ -23,3 +23,11 @@ console.log(numberUser)
 //      messaggio: Ha vinto l'utente 
 //ALTRIMENTI pareggio
 //      messaggio: Nessun vincitore, è un pareggio
+
+if(numberComputer > numberUser){
+    console.log("Ha vinto il PC")
+} else if (numberComputer < numberUser){
+    console.log("Ha vinto l'utente")
+} else{
+    console.log("Nessun vincitore, è un pareggio")
+}
